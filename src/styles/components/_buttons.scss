@@ -1,0 +1,19 @@
+.button {
+  display: block;
+  padding: 10px 24px;
+  color: $primary-light;
+  font-weight: 600;
+  background-color: $brand-normal;
+  border: 2px solid $brand-normal;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover {
+    color: $brand-dark;
+    background-color: $primary-light;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 16px 32px;
+  }
+}
